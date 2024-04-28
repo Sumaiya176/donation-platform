@@ -98,7 +98,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="border flex justify-center content-center">
+      <div className="flex justify-center content-center">
         <button onClick={() => darkModeHandler()}>
           {
             dark && <IoSunny className="dark:text-white" /> // render sunny when dark is true
